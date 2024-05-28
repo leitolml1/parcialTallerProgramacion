@@ -1,0 +1,542 @@
+main{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+}
+#cabecera{
+  height: 40px;
+  background-color: black;
+  width: 100%;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+a{
+  color: black;
+  font-size: 25px;
+}
+.divImagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgPrincipal{
+  height: 600px;
+  width: auto;
+}
+#divImagen{
+
+  background-color: black;
+}
+.titulo{
+    font-size: 60px;
+    margin-left: 20px;
+}
+.subtitulo{
+  margin-left: 20px;
+  font-size: 45px;
+}
+.texto{
+  font-size: 40px;
+  margin-left: 20px;
+}
+#imagenUno{
+  width: auto;
+  height: 1000px;
+}
+.divClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divGridPrincipal{
+    background-color: aquamarine;
+}
+#divGrid{
+  background:linear-gradient(black,rgb(47, 47, 47),rgb(17, 17, 17));
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.img1{
+  display: inline-block;
+  width: 450px;
+  height: auto;
+}
+.subtitulo2{
+  font-size: 30px;
+  color: blueviolet;
+}
+.texto2{
+  color: white;
+  font-size: 21px;
+}
+.contenido{
+  margin: 10px;
+}
+/*estilos para producto.html */
+#divProducto{
+  margin-left: 20px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,800px);
+  justify-content: center;
+  align-items: center;
+}
+#Producto{
+  margin-top:20%;
+}
+.imagenProducto{
+  width: auto;
+  height: 1200px;
+}
+
+#divBotones{
+  display: flex;
+}
+#anterior ,#siguiente{
+    font-size: 35px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+#divCarecteristicasProducto{
+    display: grid;
+    margin-left: 5%;
+    grid-template-columns: repeat(2,1fr);
+    background-color: black;
+}
+
+.divCI{
+  width: auto;
+  height: 700px;
+}
+.botonDV{
+  width: 100%;
+  font-weight: bold;
+  background: none;
+  text-align: left;
+  border: 0px;
+  color: rgb(115, 114, 114);
+  font-size: 45px;
+}
+.botonDV:hover{
+  color: white;
+}
+#divColeccion{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#divGrid_coleecion{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.imggrid{
+  width: 100%;
+  height: 500px;
+}
+.div_c{
+  padding: 80px;
+}
+/*estilos para el formulario */
+#divConctactFormulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#divFormulario{
+  border: solid;
+  border-radius: 10px;
+  border-color: black;
+}
+.elementoFormulario{
+  border-radius: 5px;
+  width: 100%;
+}
+#botonEnviar{
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+#divAbout2{
+  padding: 100px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.imgAbout{
+  width: auto;
+  height: 250px;
+}
+.aboutImgPrincipal{
+
+  width: auto;
+  height: 500px;
+}
+#imagenPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-device-width: 1024px){
+    body{
+          width: 1024px;
+    }
+    #cabecera{
+        height: 40px;
+        background-color: black;
+        width: 100%;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    a{
+        color: black;
+        font-size: 25px;
+    }
+    .divImagen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgPrincipal{
+        height: 400px;
+        width: auto;
+    }
+    #divImagen{
+        display: flex;
+        width: 50%;
+        height: 50%;
+    }
+    .titulo{
+        margin-left: 20px;
+    }
+    .subtitulo{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    .texto{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    #imagenUno{
+        width: 1024px;
+        height: 50%;
+    }
+    #divGrid{
+        background:linear-gradient(black,rgb(47, 47, 47),rgb(17, 17, 17));
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .img1{
+        display: inline-block;
+        width: 450px;
+        height: auto;
+    }
+    .subtitulo2{
+        font-size: 30px;
+        color: blueviolet;
+    }
+    .texto2{
+        color: white;
+        font-size: 21px;
+    }
+    .contenido{
+        margin: 10px;
+    }
+    /*estilos para producto.html */
+    #divProducto{
+        margin-left: 20px;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,300px);
+        justify-content: center;
+        align-items: center;
+    }
+    #Producto{
+        margin-top:20%;
+    }
+    .imagenProducto{
+        width: 400px;
+        height: 500px;
+    }
+
+    #divBotones{
+        display: flex;
+    }
+    #anterior ,#siguiente{
+        width: 100%;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+    }
+    #divCarecteristicasProducto{
+        margin-top: 20px;
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,600px);
+        background-color: black;
+    }
+    .divCI{
+        width: 400px;
+        height: 300px;
+    }
+    .botonDV{
+        width: 100%;
+        font-weight: bold;
+        background: none;
+        text-align: left;
+        border: 0px;
+        color: rgb(115, 114, 114);
+        font-size: 25px;
+    }
+    .botonDV:hover{
+        color: white;
+    }
+    #divColeccion{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #divGrid_coleecion{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .imggrid{
+        width: 100%;
+        height: 500px;
+    }
+    .div_c{
+        padding: 80px;
+    }
+    /*estilos para el formulario */
+    #divConctactFormulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #divFormulario{
+        border: solid;
+        border-radius: 10px;
+        border-color: black;
+    }
+    .elementoFormulario{
+        border-radius: 5px;
+        width: 100%;
+    }
+    #botonEnviar{
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    #divAbout2{
+        padding: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .imgAbout{
+        width: auto;
+        height: 250px;
+    }
+    .aboutImgPrincipal{
+
+        width: auto;
+        height: 500px;
+    }
+    #imagenPrincipal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-device-width: 1440px) and (min-device-width:1400px){
+    body{
+        width: 1440px;
+    }
+    #cabecera{
+        height: 40px;
+        background-color: black;
+        width: 100%;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    a{
+        color: black;
+        font-size: 25px;
+    }
+    .divImagen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgPrincipal{
+        height: 400px;
+        width: auto;
+    }
+    #divImagen{
+        display: flex;
+        width: 50%;
+        height: 50%;
+    }
+    .titulo{
+        margin-left: 20px;
+    }
+    .subtitulo{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    .texto{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    #imagenUno{
+        width: 1440px;
+        height: 50%;
+    }
+    #divGrid{
+        background:linear-gradient(black,rgb(47, 47, 47),rgb(17, 17, 17));
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .img1{
+        display: inline-block;
+        width: 450px;
+        height: auto;
+    }
+    .subtitulo2{
+        font-size: 30px;
+        color: blueviolet;
+    }
+    .texto2{
+        color: white;
+        font-size: 21px;
+    }
+    .contenido{
+        margin: 75px;
+    }
+    /*estilos para producto.html */
+    #divProducto{
+        margin-left: 20px;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,300px);
+        justify-content: center;
+        align-items: center;
+        grid-column-gap: 150px;
+    }
+    #Producto{
+        margin-top:20%;
+    }
+    .imagenProducto{
+        width: 400px;
+        height: 500px;
+    }
+
+    #divBotones{
+        display: flex;
+    }
+    #anterior ,#siguiente{
+        width: 100%;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+    }
+    #divCarecteristicasProducto{
+        margin-top: 20px;
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background-color: black;
+        grid-column-gap: 200px;
+    }
+    .divCI{
+        width: auto;
+        height: 400px;
+    }
+    .botonDV{
+        width: 100%;
+        font-weight: bold;
+        background: none;
+        text-align: left;
+        border: 0px;
+        color: rgb(115, 114, 114);
+        font-size: 25px;
+    }
+    .botonDV:hover{
+        color: white;
+    }
+    #divColeccion{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #divGrid_coleecion{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .imggrid{
+        width: 400px;
+        height: 300px;
+    }
+    .div_c{
+        padding: 80px;
+    }
+    /*estilos para el formulario */
+    #divConctactFormulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #divFormulario{
+        border: solid;
+        border-radius: 10px;
+        border-color: black;
+    }
+    .elementoFormulario{
+        border-radius: 5px;
+        width: 100%;
+    }
+    #botonEnviar{
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    #divAbout2{
+        padding: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .imgAbout{
+        width: auto;
+        height: 250px;
+    }
+    .aboutImgPrincipal{
+
+        width: auto;
+        height: 500px;
+    }
+    #imagenPrincipal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
