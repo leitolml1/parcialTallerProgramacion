@@ -10,7 +10,7 @@
         width: 100%;
     }
     #cabecera{
-    height: 40px;
+    height: 50px;
     background-color: black;
     width: 100%;
     }
@@ -39,15 +39,15 @@
     background-color: black;
     }
     .titulo{
-        font-size: 40px;
+        font-size: 60px;
         margin-left: 20px;
     }
     .subtitulo{
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 50px;
     }
     .texto{
-    font-size: 15px;
+    font-size: 30px;
     margin-left: 20px;
     }
     #imagenUno{
@@ -89,7 +89,7 @@
   margin-left: 20px;
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(2,800px);
+  grid-template-columns: repeat(2,1fr);
   justify-content: center;
   align-items: center;
 }
@@ -98,7 +98,7 @@
 }
 .imagenProducto{
   width: auto;
-  height: 1200px;
+  height: 800px;
 }
 
 #divBotones{
@@ -120,7 +120,7 @@
 
 .divCI{
   width: auto;
-  height: 700px;
+  height: 500px;
 }
 .botonDV{
   width: 100%;
